@@ -265,10 +265,9 @@ ul {
     padding: 0px
 }
 
-li {
-    /* list-style: none */
+.footer-tittle ul li{
+    list-style: none
 }
-
 hr {
     border-bottom: 1px solid #eceff8;
     border-top: 0 none;
