@@ -571,11 +571,6 @@ hr {
     margin: 0
 }
 
-@media (max-width: 575px) {
-    .border-btn {
-        display: none
-    }
-}
 
 .border-btn::before {
     border: 1px solid transparent;
