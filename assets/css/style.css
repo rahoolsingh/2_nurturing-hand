@@ -21,7 +21,7 @@
 }
 
 .theme-bg {
-    background: #09cc7f
+    background: #16161a
 }
 
 .brand-bg {
@@ -41,30 +41,30 @@
 }
 
 .theme-color {
-    color: #09cc7f
+    color: #000000
 }
 
 .boxed-btn {
     background: #fff;
-    color: #09cc7f !important;
+    color: #f05423 !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #09cc7f;
+    border: 1px solid #f05423;
     letter-spacing: 3px;
     text-align: center;
-    color: #09cc7f;
+    color: #f05423;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #09cc7f;
+    background: #1b1b1b;
     color: #fff !important;
-    border: 1px solid #09cc7f
+    border: 1px solid #1b1b1b
 }
 
 .boxed-btn:focus {
@@ -403,7 +403,7 @@ hr {
     font-size: 15px;
     transition: 0.6s;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-    background-image: linear-gradient(to left, #46C0BE, #6DD56F, #46C0BE);
+    background-image: linear-gradient(to left, #f05423, #f05423, #f05423);
     background-position: right;
     background-size: 200%
 }
@@ -453,7 +453,7 @@ hr {
 }
 
 .white-btn::before {
-    background: #09cc7f;
+    background: #f05423;
     color: #fff !important
 }
 
@@ -467,7 +467,7 @@ hr {
 }
 
 .cal-btn i {
-    color: #09cc7f !important;
+    color: #f05423 !important;
     font-size: 31px;
     font-weight: 300;
     margin-right: 10px
@@ -542,7 +542,7 @@ hr {
 }
 
 .hero-btn:hover {
-    color: #166417 !important
+    color: #f05423 !important
 }
 
 .hero-btn:hover::before {
@@ -551,8 +551,8 @@ hr {
 }
 
 .border-btn {
-    border: 1px solid #6fd66c;
-    color: #6fd66c;
+    border: 1px solid #f05423;
+    color: #f05423;
     background: none;
     border-radius: 30px;
     text-transform: capitalize;
@@ -585,7 +585,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #09cc7f;
+    background: #f05423;
     z-index: -1;
     transition: transform 0.5s;
     transition-timing-function: ease;
@@ -625,7 +625,7 @@ hr {
 
 #scrollUp,
 #back-top {
-    background: #09cc7f;
+    background: #f05423;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -2058,7 +2058,7 @@ hr {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #09cc7f;
+    border-top-color: #f05423;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -2468,11 +2468,21 @@ hr {
         margin-bottom: 50px
     }
 }
-
+.section-tittle-about {
+    max-width: 85vw;
+    margin: auto;
+}
+.section-tittle-about span {
+    margin-bottom: 20px;
+    display: block;
+    color: #f05423;
+    text-transform: uppercase;
+    font-size: 20px
+}
 .section-tittle span {
     margin-bottom: 20px;
     display: block;
-    color: #70D76A;
+    color: #f05423;
     text-transform: uppercase;
     font-size: 20px
 }
@@ -2484,7 +2494,13 @@ hr {
         text-align: left
     }
 }
-
+.section-tittle-about h2 {
+    font-size: 30px;
+    display: block;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 40px
+}
 .section-tittle h2 {
     font-size: 55px;
     display: block;
@@ -2546,7 +2562,7 @@ hr {
 }
 
 .theme-bg {
-    background: #09cc7f
+    background: #f05423
 }
 
 .brand-bg {
@@ -2566,7 +2582,7 @@ hr {
 }
 
 .theme-color {
-    color: #09cc7f
+    color: #f05423
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2659,7 +2675,7 @@ hr {
 }
 
 .main-header .main-menu ul li:hover>a {
-    color: #09cc7f
+    color: #f05423
 }
 
 .main-header .main-menu ul ul.submenu {
@@ -2672,7 +2688,7 @@ hr {
     opacity: 0;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
     padding: 17px 0;
-    border-top: 5px solid #09cc7f;
+    border-top: 5px solid #f05423;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -o-transition: .3s;
@@ -2691,7 +2707,7 @@ hr {
 }
 
 .main-header .main-menu ul ul.submenu>li>a:hover {
-    color: #09cc7f;
+    color: #f05423;
     background: none;
     padding-left: 13px !important
 }
@@ -2753,7 +2769,7 @@ hr {
 }
 
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-    background-color: #09cc7f !important
+    background-color: #f05423 !important
 }
 
 .mobile_menu .slicknav_menu .slicknav_nav {
@@ -2762,7 +2778,7 @@ hr {
 
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #09cc7f
+    color: #f05423
 }
 
 .mobile_menu .slicknav_menu .slicknav_nav a {
@@ -3049,8 +3065,8 @@ hr {
 }
 
 .video-icon a {
-    background: #6fd66c;
-    background: linear-gradient(90deg, #6fd66c 0%, #48c1b9 100%);
+    background: #f05423;
+    background: linear-gradient(90deg, #f05423 0%, #f05423 100%);
     color: #fff;
     width: 60px;
     height: 60px;
@@ -3127,7 +3143,7 @@ hr {
     bottom: -2px;
     right: -2px;
     border-radius: inherit;
-    border: 1px solid #6fd66c;
+    border: 1px solid #f05423;
     -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
     animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite
 }
@@ -3276,7 +3292,7 @@ hr {
 .visit-tailor-area .tailor-details span {
     margin-bottom: 20px;
     display: block;
-    color: #70D76A;
+    color: #f05423;
     text-transform: uppercase;
     font-size: 20px
 }
@@ -3484,6 +3500,14 @@ hr {
         padding-right: 70px
     }
 }
+.support-caption-about{
+    max-width: 80vw;
+    text-align: justify;
+    /* font-weight: 700; */
+}
+.support-caption-about p{
+    font-weight: 500;
+}
 
 .support-company-area .support-wrapper .left-content .support-caption p {
     margin-bottom: 46px;
@@ -3550,8 +3574,8 @@ hr {
 .support-company-area .support-wrapper .right-content .support-img-cap {
     position: absolute;
     bottom: 0px;
-    background: #6fd66c;
-    background: linear-gradient(90deg, #6fd66c 0%, #48c1b9 100%);
+    background: #f05423;
+    background: linear-gradient(90deg, #f05423 0%, #f05423 100%);
     padding: 0px 25px;
     left: -250px;
     bottom: 50px
@@ -3696,8 +3720,8 @@ hr {
 
 .service-area .single-cat:hover .cat-cap h5 a {
     color: #fff;
-    background: #6fd66c;
-    background: linear-gradient(90deg, #6fd66c 0%, #48c1b9 100%)
+    background: #f05423;
+    background: linear-gradient(90deg, #f05423 0%, #f05423 100%)
 }
 
 .service-area .single-cat.active .cat-icon img {
@@ -3707,8 +3731,8 @@ hr {
 .service-area .single-cat.active .cat-cap h5 a {
     color: #fff;
     text-decoration: underline;
-    background: #6fd66c;
-    background: linear-gradient(90deg, #6fd66c 0%, #48c1b9 100%)
+    background: #f05423;
+    background: linear-gradient(90deg, #f05423 0%, #f05423 100%)
 }
 
 .our-cases-area .single-cases .cases-img {
@@ -3750,7 +3774,7 @@ hr {
 }
 
 .our-cases-area .single-cases .cases-caption h3 a:hover {
-    color: #09cc7f
+    color: #f05423
 }
 
 .our-cases-area .single-cases .cases-caption .prices p {
@@ -3790,8 +3814,8 @@ hr {
 }
 
 .barfiller .fill {
-    background: #6fd66c !important;
-    background: linear-gradient(90deg, #6fd66c 0%, #48c1b9 100%) !important;
+    background: #f05423 !important;
+    background: linear-gradient(90deg, #f05423 0%, #f05423 100%) !important;
     border-radius: 0 !important
 }
 
@@ -3874,7 +3898,7 @@ hr {
 }
 
 .single-job-items .job-tittle a h4:hover {
-    color: #09cc7f
+    color: #f05423
 }
 
 .single-job-items .job-tittle ul li {
@@ -3990,7 +4014,7 @@ hr {
 
 .footer-social a {
     color: #fff;
-    background: #09cc7f;
+    background: #f05423;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -4003,7 +4027,7 @@ hr {
 
 .footer-social a:hover {
     color: #fff;
-    background: #09cc7f
+    background: #f05423
 }
 
 .footer-social a:hover i {
@@ -4029,7 +4053,7 @@ hr {
 
 .number a {
     font-size: 26px !important;
-    color: #09cc7f !important;
+    color: #f05423 !important;
     margin-bottom: 23px;
     display: block
 }
@@ -4187,7 +4211,7 @@ hr {
 }
 
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a:hover {
-    color: #09cc7f
+    color: #f05423
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4230,7 +4254,7 @@ hr {
 }
 
 .home-blog-single:hover .blog-img-cap .blog-img .blog-date {
-    background: #09cc7f
+    background: #f05423
 }
 
 .home-blog-single:hover .blog-img-cap .blog-img img {
@@ -4255,7 +4279,7 @@ hr {
 
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #09cc7f 0%, #09cc7f 99%);
+    background: -webkit-linear-gradient(131deg, #f05423 0%, #f05423 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -4696,7 +4720,7 @@ hr {
 }
 
 .blog_details a:hover {
-    color: #09cc7f
+    color: #f05423
 }
 
 .blog_details h2 {
@@ -4754,7 +4778,7 @@ hr {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #09cc7f;
+    background-color: #f05423;
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -4836,7 +4860,7 @@ hr {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #09cc7f;
+    background: #f05423;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
@@ -4954,7 +4978,7 @@ hr {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #09cc7f;
+    background: #f05423;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -5165,7 +5189,7 @@ hr {
 }
 
 .single-post-area .blog-author a:hover {
-    color: #09cc7f
+    color: #f05423
 }
 
 .single-post-area .blog-author p {
