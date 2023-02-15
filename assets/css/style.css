@@ -5504,6 +5504,16 @@ hr {
     color: #000000;
     font-weight: 500;
 }
+/* marquee Renovation starts*/
+.slider-renovation img{
+    max-height: 300px;
+    margin: 20px;
+    border-radius: 2px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+/* marquee Renovation ends*/
 
 .contact-title {
     font-size: 27px;
