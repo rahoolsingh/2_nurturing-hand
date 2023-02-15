@@ -266,7 +266,7 @@ ul {
 }
 
 li {
-    list-style: none
+    /* list-style: none */
 }
 
 hr {
@@ -3222,9 +3222,10 @@ hr {
 }
 
 .visit-tailor-area {
-    background: #EEFFFA;
+    background: #ffffff;
     display: flex;
-    align-items: center
+    align-items: center;
+    padding-top: 50px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3247,7 +3248,7 @@ hr {
 
 .visit-tailor-area .tailor-details {
     width: 32%;
-    padding: 20px 20px 20px 60px
+    padding: 20px 20px 20px 0px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3371,13 +3372,23 @@ hr {
 }
 
 .visit-tailor-area .tailor-offers {
-    background-image: url(../img/gallery/visit_bg.png);
-    background-size: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 990px;
+    /* background-image: url(../img/gallery/visit_bg.png); */
+    /* background-color: #000; */
+    /* height: 900px; */
     width: 55%;
+    margin: auto;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+}
+.visit-tailor-area .tailor-offers {
+    margin: auto;
+    width: auto;
+    /* padding: 50px; */
+}
+.visit-tailor-area .tailor-offers img {
+    max-height: 500px;
+    margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
