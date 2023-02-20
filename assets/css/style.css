@@ -6174,7 +6174,9 @@ del {
     background: #f9f9ff;
     border-left: 2px solid #1f2b7b
 }
-
+.junkartDesign{
+    background: url(../img/gallery/JunkArtDesign.png);
+}
 .progress-table-wrap {
     overflow-x: scroll
 }
