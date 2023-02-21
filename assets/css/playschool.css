@@ -1,3 +1,35 @@
 body{
-    background: url(../img/gallery/JunkArtDesign.png);
+    background: url(../img/gallery/playschoolDesign.png);
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.schoolSection{
+    background-color: #93c808;
+    padding: 50px 0px;
+}
+.schoolSection h1{
+    font-size: xx-large;
+    text-align: center;
+}
+.blackboard{
+    background: url(../img/gallery/blackboard.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 80vw;
+    margin: auto;
+    border: 15px solid #b96301;
+    padding: 20px;
+    /* margin-top: 20px; */
+}
+.blackboard h1{
+    color: white;
+    font-family: cursive;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.blackboard p{
+    color: white;
+    font-family: cursive;
 }

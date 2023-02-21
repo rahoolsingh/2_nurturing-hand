@@ -4171,6 +4171,9 @@ hr {
     padding: 0 4px;
     padding-right: 8px
 }
+.logo a img{
+    width: 200px;
+}
 
 .home-blog-area .home-blog-single {
     -webkit-transition: .4s;
