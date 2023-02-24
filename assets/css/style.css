@@ -2845,15 +2845,15 @@ hr {
 }
 
 .slider-bg1 {
-    background-image: url(../img/hero/h1_hero1.png)
+    background-image: url(../img/hero/h1_hero1.webp)
 }
 
 .slider-bg2 {
-    background-image: url(../img/hero/h1_hero2.png)
+    background-image: url(../img/hero/h1_hero2.webp)
 }
 
 .slider-bg3 {
-    background-image: url(../img/hero/h1_hero3.png)
+    background-image: url(../img/hero/h1_hero3.webp)
 }
 
 @media (max-width: 575px) {
@@ -2977,7 +2977,7 @@ hr {
 }
 
 .slider-area2 {
-    background-image: url(../img/hero/hero2.png);
+    background-image: url(../img/hero/hero2.webp);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -3022,7 +3022,7 @@ hr {
 }
 
 .video-area {
-    background-image: url("../img/hero/slider-video-bg.png");
+    background-image: url("../img/hero/slider-video-bg.webp");
     background-repeat: no-repeat;
     height: 300px;
     width: 455px;
@@ -3375,7 +3375,7 @@ hr {
 }
 
 .visit-tailor-area .tailor-offers {
-    /* background-image: url(../img/gallery/visit_bg.png); */
+    /* background-image: url(../img/gallery/visit_bg.webp); */
     /* background-color: #000; */
     /* height: 900px; */
     width: 55%;
@@ -5631,15 +5631,15 @@ hr {
 }
 
 .breadcam_bg {
-    background-image: url(../img/banner/bradcam.png)
+    background-image: url(../img/banner/bradcam.webp)
 }
 
 .breadcam_bg_1 {
-    background-image: url(../img/banner/bradcam2.png)
+    background-image: url(../img/banner/bradcam2.webp)
 }
 
 .breadcam_bg_2 {
-    background-image: url(../img/banner/bradcam3.png)
+    background-image: url(../img/banner/bradcam3.webp)
 }
 
 .bradcam_area {
@@ -6186,7 +6186,7 @@ del {
     border-left: 2px solid #1f2b7b
 }
 .junkartDesign{
-    background: url(../img/gallery/JunkArtDesign.png);
+    background: url(../img/gallery/JunkArtDesign.webp);
 }
 .progress-table-wrap {
     overflow-x: scroll
@@ -6680,7 +6680,7 @@ del {
 }
 
 .primary-checkbox input:checked+label {
-    background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+    background: url(../img/elements/primary-check.webp) no-repeat center center/cover;
     border: none
 }
 
@@ -6718,7 +6718,7 @@ del {
 }
 
 .confirm-checkbox input:checked+label {
-    background: url(../img/elements/success-check.png) no-repeat center center/cover;
+    background: url(../img/elements/success-check.webp) no-repeat center center/cover;
     border: none
 }
 
@@ -6761,7 +6761,7 @@ del {
 }
 
 .disabled-checkbox input:checked+label {
-    background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+    background: url(../img/elements/disabled-check.webp) no-repeat center center/cover;
     border: none
 }
 
@@ -6799,7 +6799,7 @@ del {
 }
 
 .primary-radio input:checked+label {
-    background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+    background: url(../img/elements/primary-radio.webp) no-repeat center center/cover;
     border: none
 }
 
@@ -6837,7 +6837,7 @@ del {
 }
 
 .confirm-radio input:checked+label {
-    background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+    background: url(../img/elements/success-radio.webp) no-repeat center center/cover;
     border: none
 }
 
@@ -6880,7 +6880,7 @@ del {
 }
 
 .disabled-radio input:checked+label {
-    background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+    background: url(../img/elements/disabled-radio.webp) no-repeat center center/cover;
     border: none
 }
 
