@@ -7,10 +7,10 @@ body {
 }
 
 .schoolSection {
-    background-color: #6a3e1b;
-    /* padding: 50px 0px; */
+    background-color: #0d1117;
     margin-top: 10vh;
-    height: 80vh;
+    /* height: 0vh; */
+    margin-bottom: -2px;
 }
 
 .schoolSection h1 {
@@ -136,7 +136,15 @@ a {
 .open-alert b{
     color: #f05423;
 }
-
+.sticky-enroll{
+    position: fixed;
+    left: -2px;
+    bottom: 45px;
+    border-radius: 0px;
+    font-size: small;
+    padding: 10px 20px;
+    z-index: 3;
+}
 @media screen and (max-width: 768px) {
     .choose {
         margin-left: 20px;
@@ -157,8 +165,9 @@ a {
 
     }
     .schoolSection{
-        height: 90vh;
+        /* height: 90vh; */
         margin-top: -25px;
+        padding-bottom: 50px;
     }
     .founder-profile{
         margin-left: -20px;
@@ -167,5 +176,10 @@ a {
     .img-fluid{
         height: 250px;
         max-height: 70vw;
+    }
+    .sticky-enroll{
+        border-radius: 0px 25px 25px 0px;
+        background: #0d1117;
+        border: 1px solid white;
     }
 }
