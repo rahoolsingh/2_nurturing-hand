@@ -1,35 +1,168 @@
-body{
+body {
     background: url(../img/gallery/playschoolDesign.png);
-    width: 100vw;
+    max-width: 100vw;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
 }
-.schoolSection{
-    background-color: #93c808;
-    padding: 50px 0px;
+
+.schoolSection {
+    background-color: #6a3e1b;
+    /* padding: 50px 0px; */
+    margin-top: 10vh;
+    height: 80vh;
 }
-.schoolSection h1{
+
+.schoolSection h1 {
     font-size: xx-large;
     text-align: center;
 }
-.blackboard{
-    background: url(../img/gallery/blackboard.jpg);
-    background-position: center;
-    background-size: cover;
+
+@counter-style space-counter {
+    system: fixed;
+    symbols: 👨‍🚀 🚀 ⭐ 🪐 🎄 🌌 👩 👨‍🔬 🔭;
+    suffix: " ";
+}
+
+a {
+    text-decoration: none;
+    /* color: white; */
+}
+
+.explore-btn {
+    color: black;
+    background: white;
+    margin-top: 5vh;
+}
+
+.explore-btn:hover {
+    border: 2px solid white;
+    margin-top: 6vh;
+}
+
+.president-profile b {
+    color: #f05423;
+    font-weight: 500;
+}
+
+.notice {
+    position: fixed;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    /* color: white; */
+    width: 100vw;
+    display: flex;
+    z-index: 1;
+}
+
+.notice span {
+    width: fit-content;
+    color: aliceblue;
+    background: #f05423;
+    padding: 5px 15px 8px 5px;
+    /* padding-bottom: 3px; */
+}
+
+.notice marquee {
+    color: white;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.school-hero{
+    max-width: 100vw;
+    margin: auto;
+    /* margin-top: 50px; */
+    overflow-x: hidden;
+}
+.schoolSection h1{
+    font-family: cursive; 
+    font-size: 5rem; 
+    margin-top: 10vh; 
+    color: aliceblue;
+}
+.founder-profile{
+    background: #f05423;
+    border-radius: 20px 0px 20px 0px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 5px 20px;
+    color: aliceblue;
+}
+.open-alert{
     width: 80vw;
     margin: auto;
-    border: 15px solid #b96301;
-    padding: 20px;
-    /* margin-top: 20px; */
 }
-.blackboard h1{
-    color: white;
-    font-family: cursive;
-    margin-bottom: 10px;
-    text-decoration: underline;
+.open-alert h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
 }
-.blackboard p{
+.open-alert h2{
+    background-color: #f05423;
+    min-width: fit-content;
+    width: 70vw;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: medium;
     color: white;
-    font-family: cursive;
+    font-weight: bold;
+}
+.open-alert .up{
+    border-radius: 20px 20px 0px 0px;
+}
+.open-alert .down{
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 50px;
+}
+.open-alert .btn{
+    background: white;
+    color: #f05423;
+    border: 2px solid #f05423;
+}
+.open-alert .btn a{
+    color: #f05423;
+}
+.open-alert .btn:hover{
+    background: #f05423;
+    color: white;
+}
+.open-alert .btn:hover a{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .choose {
+        margin-left: 20px;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .footer-tittles .btn a {
+        margin: auto;
+        text-align: center;
+    }
+    .schoolSection h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3.5rem;
+        width: 80vw;
+        margin: auto;
+        margin-top: 10vh; 
+
+    }
+    .schoolSection{
+        height: 90vh;
+        margin-top: -25px;
+    }
+    .founder-profile{
+        margin-left: -20px;
+        border-radius: 0px 20px 20px 0px;
+    }
+    .img-fluid{
+        height: 250px;
+        max-height: 70vw;
+    }
 }
