@@ -133,6 +133,9 @@ a {
 .open-alert .btn:hover a{
     color: white;
 }
+.open-alert b{
+    color: #f05423;
+}
 
 @media screen and (max-width: 768px) {
     .choose {
