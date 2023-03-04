@@ -405,12 +405,19 @@ hr {
     display: inline-block;
     font-size: 15px;
     transition: 0.6s;
-    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
+    /* box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12); */
     background-image: linear-gradient(to left, #f05423, #f05423, #f05423);
     background-position: right;
-    background-size: 200%
+    background-size: 200%;
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0);
 }
 
+.btn:hover{
+    background: white;
+    color: #f05423;
+    border: 2px solid #f05423;
+}
 .btn i {
     color: #ffffff;
     font-size: 13px;
@@ -7011,4 +7018,20 @@ del {
 
 .switch-wrap {
     margin-bottom: 10px
+}
+
+
+
+@media screen and (min-width: 768px){
+
+    .mobile-only{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .pc-only{
+        display: none;
+    }
 }
