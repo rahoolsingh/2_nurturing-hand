@@ -5,9 +5,15 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-
+.btn {
+    background: #d11655;
+}
+.btn:hover{
+    border: 2px solid #d11655;
+    color: #d11655;
+}
 .schoolSection {
-    background-color: #97e02a;
+    background-color: #d11655;
     margin-top: 10vh;
     margin-bottom: -2px;
     padding-bottom: 10px;
@@ -16,7 +22,7 @@ body {
 .schoolSection h1 {
     font-size: xx-large;
     text-align: center;
-    color: #0d1117;
+    /* color: #0d1117; */
 }
 
 @counter-style space-counter {
@@ -42,7 +48,7 @@ a {
 }
 
 .president-profile b {
-    color: #f05423;
+    color: #d11655;
     font-weight: 500;
 }
 
@@ -84,13 +90,13 @@ a {
     margin: auto;
 }
 .founder-profile{
-    background: #f05423;
+    background: #d11655;
     border-radius: 20px 0px 20px 0px;
     width: fit-content;
     margin: auto;
     margin-bottom: 50px;
     padding: 5px 20px;
-    color: aliceblue;
+    color: white;
 }
 .open-alert{
     width: 80vw;
@@ -102,7 +108,7 @@ a {
     line-height: 1.2;
 }
 .open-alert h2{
-    background-color: #f05423;
+    background-color: #d11655;
     min-width: fit-content;
     width: 70vw;
     max-width: 300px;
@@ -123,21 +129,21 @@ a {
 }
 .open-alert .btn{
     background: white;
-    color: #f05423;
-    border: 2px solid #f05423;
+    color: #d11655;
+    border: 2px solid #d11655;
 }
 .open-alert .btn a{
-    color: #f05423;
+    color: #d11655;
 }
 .open-alert .btn:hover{
-    background: #f05423;
+    background: #d11655;
     color: white;
 }
 .open-alert .btn:hover a{
     color: white;
 }
 .open-alert b{
-    color: #f05423;
+    color: #d11655;
 }
 .sticky-enroll{
     position: fixed;
@@ -177,8 +183,13 @@ a {
         border-radius: 0px 20px 20px 0px;
     }
     .img-fluid{
-        height: 250px;
-        max-height: 70vw;
+        width: 250px;
+        max-width: 70vw;
+        margin-top: 50px;
+    }
+    .mobile-founder{
+        text-align: center;
+        margin-bottom: 20px;
     }
     .sticky-enroll{
         border-radius: 0px 25px 25px 0px;
