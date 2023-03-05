@@ -328,6 +328,7 @@
         </div>
         <!-- Our Cases End -->
         <!--? Blog Area Start -->
+        
         <div class="our-cases-area">
             <div class="container">
                 <div class="row justify-content-center">
@@ -471,7 +472,9 @@
                                 <div class="footer-copy-right text-center">
                                     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                         Copyright &copy;
-                                        <script>document.write(new Date().getFullYear());</script> All rights reserved.
+                                        <span id="cpyrt"></span><script>
+                                            document.querySelector("#cpyrt").textContent=new Date().getFullYear();
+                                        </script> All rights reserved.
                                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     </p>
                                 </div>
