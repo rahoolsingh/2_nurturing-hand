@@ -4720,7 +4720,7 @@ hr {
 }
 
 .blog_item {
-    margin-bottom: 70px
+    margin-bottom: 120px;
 }
 
 .blog_details {
@@ -4736,6 +4736,9 @@ hr {
 
 .blog_details p {
     margin-bottom: 30px
+}
+.blog-main-description img{
+    display: none;
 }
 
 .blog_details a {
