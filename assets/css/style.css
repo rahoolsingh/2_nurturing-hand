@@ -4740,9 +4740,6 @@ hr {
     .blog_details {
         padding: 60px 30px 35px 35px
     }
-    .single-post img{
-        max-width: 90%;
-    }
 }
 
 .blog_details p {
@@ -5203,6 +5200,9 @@ hr {
 @media (max-width: 600px) {
     .single-post-area .blog-author {
         padding: 20px 8px
+    }
+    .single-post img{
+        max-width: 90%;
     }
 }
 
