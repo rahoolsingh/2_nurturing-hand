@@ -4740,6 +4740,9 @@ hr {
     .blog_details {
         padding: 60px 30px 35px 35px
     }
+    .single-post img{
+        max-width: 90%;
+    }
 }
 
 .blog_details p {
